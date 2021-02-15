@@ -276,12 +276,15 @@ body {
 .article-row {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     max-width: 930px;
+    padding: 0 -30px;
     margin: 0 auto;
 }
 
-.article-row .article:not(:last-child) {
-    margin-right: 60px;
+.article-row .article {
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .share {
