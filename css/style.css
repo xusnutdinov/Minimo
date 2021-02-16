@@ -399,7 +399,7 @@ body.lock {
 }
 
 .article-row {
-    display: flex;
+    display: none;
     align-items: flex-start;
     justify-content: center;
     max-width: 930px;
